@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Insertar categorias-->
+	
+	<!-- Saludos -->
+<category>
+  <pattern>Hola</pattern>
+  <template>hola,bienvenido a este libro de recetas, espero lo disfrutes😋</template>
+</category>
+
+<!-- interaccion del chatbot y el usuario -->
+<category>
+  <pattern>quiero saber que puedo cosinar hoy</pattern>
+  <template>
+   puedo ayudarte con algunas ideas, pero ¿que parte de la comida estas planenado🙇? <br/><ul>
+    <li>desayuno</li><br/>
+    <li>almuerzo</li><br/>
+    <li>cena</li><br/>
+    <li>bocadillo</li><br/></ul>
+  </template>
+</category>
+
+
+<category>
+  <pattern>almuerzo</pattern>
+  <template>
+   algunas comidas que podras elaborar! <br/><ul>
+    <li>Camarones al Ajillo</li><br/>
+    <li>Puré de Papa</li><br/>
+    <li>Alitas orientales</li><br/>
+    <li>Arroz con pollo</li><br/></ul>
+  </template>
+</category>
+
+
+<category>
+  <pattern>Alitas orientales</pattern>
+  <template>
+     te enviare una increible receta sobre eso 😎
+  </template>
+</category>
+
+<category>
+  <pattern>ok</pattern>
+   <template>
+      ingredientes: (998g.) 12 alitas enteras
+      Sal y pimienta al gusto
+      (120g.) ½ taza de agua
+      1 sobre DELICIAS DE POLLO CHOP SUEY MAGGI®
+      (5g.) 1 cucharadita de aceite de ajonjolí
+      (20gr) ½ taza cebollín
+      (15g.) 1 cucharada de semillas de ajonjolí
+      
+       ¡A cosinar!<br/><ul>
+    <li>1. En un tazón, marinar las alitas con sal y pimienta al gusto por 5 minutos. Mientras precalentar el horno a 180° C.</li><br/>
+    <li>2. Colocar las alitas marinadas en una bandeja y hornear por 20 minutos.</li><br/>
+    <li>3. En una cacerola, verter el agua y disolver el contenido del sobre de DELICIAS DE POLLO CHOP SUEY MAGGI®. Poner a fuego medio y cocinar 5 minutos o hasta que reduzca y espese.</li><br/>
+    <li>4. Retirar del fuego y añadir el aceite de ajonjolí, el cebollín y las semillas de ajonjolí. Bañar las alitas con la salsa.</li><br/>
+    <li>5.  Servir y disfrutar.</li><br/></ul>
+  </template>
+</category>
+
+<category>
+  <pattern>gracias</pattern>
+  <template>
+   espero te haya encantado esta receta💝
+  </template>
+</category>
+
+<category>
+  <pattern>claro</pattern>
+  <template>
+   hasta la proxima🖐 
+  </template>
+</category>
+
+</aiml>
